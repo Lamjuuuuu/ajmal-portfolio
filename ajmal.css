@@ -1,0 +1,61 @@
+
+body {
+  font-family: Segoe UI;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: DimGrey;
+}
+
+header {
+  background: linear-gradient(to right, purple, DodgerBlue);
+  color: white;
+  padding: 30px 0;
+  text-align: left;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: -27px 20px 30px 0;
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+}
+
+nav ul li a {
+  padding: 10px 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  background-color: paleturquoise;
+  color: DodgerBlue;
+}
+
+main {
+  padding: 40px 20px;
+  max-width: 960px;
+  margin: auto;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 4px 4px 10px 10px rgba(0,0,0,0.15);
+  margin-top: 30px;
+}
+
+section h2 {
+  color: DodgerBlue;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+h1 {
+	margin:10px 0 0px 35px;
+}
+.gamba {
+	text-align:center;
+}
